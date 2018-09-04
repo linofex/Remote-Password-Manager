@@ -28,7 +28,7 @@ import SocketServer
 import os
 import threading
 import utility
-import DB_2_onetable as DB
+import DB_2_1T as DB
 from cryptography.hazmat.primitives.asymmetric import padding
 from cryptography.hazmat.backends import default_backend
 from cryptography.hazmat.primitives import hashes
