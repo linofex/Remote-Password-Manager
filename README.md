@@ -1,3 +1,3 @@
 # Remote-Password-Manager
 
-Read 'Relazione.pdf file'
+Read 'Relazione.pdf' file
