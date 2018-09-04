@@ -11,10 +11,9 @@ import os
 import binascii
 
 def get_db_config():
-    #file = open("/media/data/documents/.passtool_config_one", "r")
     config = {}
     configParser = ConfigParser.RawConfigParser()   
-    configFilePath = r'/media/data/documents/university/Pisa/I_anno/II_semestre/Cybersecurity/progetto/.DB_config_2_one'
+    configFilePath = r'path to the file'
     configParser.read(configFilePath)
     config["user_name"] = configParser.get('credentials', 'user_name')
     config["password"] = configParser.get('credentials', 'password')
