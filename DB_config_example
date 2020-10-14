@@ -1,0 +1,7 @@
+[credentials]
+user_name = my_username
+password = my_password
+location = localhost
+db_name = db_name
+
+
