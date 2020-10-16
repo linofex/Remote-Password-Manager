@@ -251,6 +251,9 @@ class PasswordManager(SocketServer.BaseRequestHandler):
             return  response_m1
         # M2 ------------------------------------------------------------------------------
         data_to_send = self.message_M2()
+        if data_to_send is None:
+            utility.print_user_log(self.client_address,"[ERROR] Error during M2 creation ")
+            return None
         ret = utility.send_data(self.request,data_to_send)
         if ret is False:
             utility.print_user_log(self.client_address,"[ERROR] Error during sending data ")
